@@ -2,13 +2,7 @@
 
 ---
 
-[boston.csv](attachment:c90caa72-f842-4e64-87fc-d42c30227e84:boston.csv)
-
-![image.png](attachment:d813a26f-7759-4da2-93a8-88084d8f1bbc:image.png)
-
 여러가지 정보가 담겨있는 보스턴 집값 데이터입니다
-
-![image.png](attachment:e1b72a1a-05c5-40b6-a287-bbb4c606be0b:image.png)
 
 원인과 결과가 있다면 y값은 지금 medv(중앙값)!
 
@@ -24,10 +18,6 @@
 2. 모델의 구조 만들기
 3. 데이터로 모델 학습
 4. 모델 이용하기
-
-[boston.ipynb](attachment:5c72b610-4469-4f61-8d07-72881497971d:boston.ipynb)
-
-![image.png](attachment:c9034d44-c2f7-4798-8bb7-ca4cd7efe235:image.png)
 
 ```python
 import tensorflow as tf
@@ -61,6 +51,5 @@ model.fit(iv,dv, epochs=10000, verbose=0)
 
 집값에 영향을 미치는 요소들을 독립변수(`X`)에 두고 중앙값을 종속변수(`Y`)로 설정한다
 
-![image.png](attachment:ca618506-0ce7-4b3b-b016-a76735ca6421:image.png)
 
 학습시킨 다음 모델을 이용해본다!
